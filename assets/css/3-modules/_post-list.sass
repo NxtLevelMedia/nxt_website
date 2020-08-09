@@ -69,6 +69,15 @@
     @media screen and (min-width: 1024px)
         flex-direction: row
         justify-content: space-between
+        &.all
+            .post
+                width: 100%
+
+                &:nth-child(even)
+                    .post-image
+                        order: 2
+                    .post-content
+                        order: 1
 
         .post
             width: calc(50% - 1rem)

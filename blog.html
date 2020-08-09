@@ -1,0 +1,24 @@
+---
+layout: post-site
+permalink: /blog/
+---
+
+<h2>Mein Blog</h2>
+
+<ul class="post-list all">
+    {% for item in site.posts %}
+        <li class="post">
+            <div class="post-image" style="background-image: url('{% if item.image %}{{ site.baseurl }}{{item.image}}{% else %}{{ site.data.settings.noImage }}{% endif %}')">
+                
+            </div>
+
+            <div class="post-content">
+                <article>
+                    <h3 class="post-title"><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></h3>
+                    <p class="post-excerpt">{{ item.excerpt }}</p>
+                    <span class="post-meta">Geschrieben am {{ item.date | date: "%d.%m.%Y um %H:%M" }}</span>
+                </article>
+            </div>
+        </li>
+    {% endfor %}
+</ul>

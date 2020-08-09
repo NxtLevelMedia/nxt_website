@@ -14,28 +14,25 @@ service:
   - name: Webdesign
     image: 'http://placehold.it/1200x1600'
     description: >-
-      I'm baby cloud bread pour-over cray poutine. Cloud bread flannel
-      post-ironic blue bottle, pabst ennui food truck quinoa ethical green
-      juice. Health goth edison bulb kogi prism kinfolk trust fund disrupt fam.
-      Subway tile skateboard ennui,
+      Webdesign ist der Grundstein in der heutigen Zeit für jedes erfolgreiche
+      Unternehmen und die Unternehmen die noch Erfolgreich sein möchten. Das
+      Aussehen des eigenen Internetauftrittes ist der erste und wichtigste
+      Schritt der heutigen Zeit.
   - name: Online-Marketing
     image: 'http://placehold.it/1200x1600'
     description: >-
-      I'm baby cloud bread pour-over cray poutine. Cloud bread flannel
-      post-ironic blue bottle, pabst ennui food truck quinoa ethical green
-      juice. Health goth edison bulb kogi prism kinfolk trust fund disrupt fam.
-      Subway tile skateboard ennui,
+      Neben dem Internetauftritt ist das Marketing eines der wichtigsten
+      Werkzeuge.  In richtiger Dosierung, ist der Erfolg garantiert.
   - name: E-Commerce
     image: 'http://placehold.it/1200x1600'
     description: >-
-      I'm baby cloud bread pour-over cray poutine. Cloud bread flannel
-      post-ironic blue bottle, pabst ennui food truck quinoa ethical green
-      juice. Health goth edison bulb kogi prism kinfolk trust fund disrupt fam.
-      Subway tile skateboard ennui,
+      Der Einzelhandel zieht sich immer mehr zurück und dagegen wächst der
+      Online-Handel. E-Commerce wird laut Aussagen von Experten, auf langer
+      Sicht nicht mehr weg zu denken sein.
   - name: Andere Dienstleistungen
     image: 'http://placehold.it/1200x1600'
     description: >-
-      I'm baby cloud bread pour-over cray poutine. Cloud bread flannel
-      post-ironic blue bottle, pabst ennui food truck quinoa ethical green
-      juice. Health goth edison bulb kogi prism kinfolk trust fund disrupt fam.
-      Subway tile skateboard ennui,
+      Als kleiner Notnagel für mangelnde Aufträge, biete ich noch weitere
+      Dienstleistungen an, die ich für Kunden erledige. Egal ob als Moderator
+      oder Website-Tester. Wenn die Bezahlung stimmt, begrüße ich Sie gerne als
+      Kunde.
