@@ -1,0 +1,74 @@
+.post-list
+    list-style: none
+    margin: 0
+    padding: 0
+    display: flex
+    flex-wrap: wrap
+
+    .post
+        display: flex
+        flex-direction: column
+        padding: 2rem
+        background: $white
+        margin-bottom: 2rem
+        box-shadow: 5px 5px 15px transparentize($second, 0.5)
+        opacity: 0.8
+        transition: 350ms
+
+        .post-image
+            display: block
+            width: 100%
+            min-height: 250px
+            background-position: center
+            background-size: cover
+            background-repeat: no-repeat
+
+        .post-content
+            article
+                margin-top: 2rem
+
+                .post-title
+                    font-size: 2.2rem
+
+                .post-excerpt
+                    font-size: 1.4rem
+
+                .post-meta
+                    font-size: 1.2rem
+                    color: $muted
+                    font-style: italic
+                    
+        &:hover
+            opacity: 1
+            box-shadow: 5px 5px 15px transparentize($second, 0.6)
+
+        @media screen and (min-width: 768px)
+            flex-direction: row
+            justify-content: space-between
+            align-items: stretch
+
+            .post-image
+                width: 35%
+
+            .post-content
+                width: calc(65% - 1rem)
+
+                .post-title
+                    font-size: 3rem
+
+        @media screen and (min-width: 1024px)
+            .post-image
+                width: 25%
+
+            .post-content
+                width: calc(75% - 1rem)
+
+                .post-title
+                    font-size: 3.5rem
+
+    @media screen and (min-width: 1024px)
+        flex-direction: row
+        justify-content: space-between
+
+        .post
+            width: calc(50% - 1rem)

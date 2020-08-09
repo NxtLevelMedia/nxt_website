@@ -1,0 +1,45 @@
+.service-list
+    list-style: none
+    margin: 0
+    padding: 0
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+
+    .service
+        position: relative
+        display: block
+        overflow: hidden
+        width: 100%
+        margin-bottom: 2rem
+
+        .service-image
+            transition: 500ms
+
+        .service-content
+            position: absolute
+            top: 0
+            left: 0
+            transform: scale(0)
+            width: 100%
+            height: 100%
+            background: transparentize($prime, 0.2)
+            color: $white
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            padding: 2rem
+            transition: 500ms
+
+        @media screen and (min-width: 640px)
+            width: calc(50% - 1rem)
+
+        @media screen and (min-width: 1350px)
+            width: calc(25% - 1rem)
+
+        &:hover
+            .service-image
+                transform: scale(0)
+            .service-content
+                transform: scale(1)

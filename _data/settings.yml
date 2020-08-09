@@ -1,0 +1,41 @@
+noImage: 'http://placehold.it/800x600'
+menu:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Blog
+    url: /blog
+  - title: Projekte
+    url: /works
+  - title: Kontakt
+    url: /contact
+service:
+  - name: Webdesign
+    image: 'http://placehold.it/1200x1600'
+    description: >-
+      I'm baby cloud bread pour-over cray poutine. Cloud bread flannel
+      post-ironic blue bottle, pabst ennui food truck quinoa ethical green
+      juice. Health goth edison bulb kogi prism kinfolk trust fund disrupt fam.
+      Subway tile skateboard ennui,
+  - name: Online-Marketing
+    image: 'http://placehold.it/1200x1600'
+    description: >-
+      I'm baby cloud bread pour-over cray poutine. Cloud bread flannel
+      post-ironic blue bottle, pabst ennui food truck quinoa ethical green
+      juice. Health goth edison bulb kogi prism kinfolk trust fund disrupt fam.
+      Subway tile skateboard ennui,
+  - name: E-Commerce
+    image: 'http://placehold.it/1200x1600'
+    description: >-
+      I'm baby cloud bread pour-over cray poutine. Cloud bread flannel
+      post-ironic blue bottle, pabst ennui food truck quinoa ethical green
+      juice. Health goth edison bulb kogi prism kinfolk trust fund disrupt fam.
+      Subway tile skateboard ennui,
+  - name: Andere Dienstleistungen
+    image: 'http://placehold.it/1200x1600'
+    description: >-
+      I'm baby cloud bread pour-over cray poutine. Cloud bread flannel
+      post-ironic blue bottle, pabst ennui food truck quinoa ethical green
+      juice. Health goth edison bulb kogi prism kinfolk trust fund disrupt fam.
+      Subway tile skateboard ennui,

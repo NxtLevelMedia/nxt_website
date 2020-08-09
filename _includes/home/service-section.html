@@ -1,0 +1,23 @@
+<section class="service-section">
+    <div class="wrapper">
+        <article class="fadein">
+            <h2>Das mache ich</h2>
+
+            <ul class="service-list">
+
+                {% for item in site.data.settings.service %}
+                    <li class="service">
+                        <img src="{{ item.image }}" alt="" class="service-image">
+                        <div class="service-content">
+                            <h3>{{ item.name }}</h3>
+                            <p>
+                                {{ item.description }}
+                            </p>
+                        </div>
+                    </li>
+                {% endfor %}
+                
+            </ul>
+        </article>
+    </div>
+</section>

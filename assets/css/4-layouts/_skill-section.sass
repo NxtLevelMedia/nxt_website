@@ -1,0 +1,58 @@
+.skill-section
+    min-height: auto
+    background: $second
+    color: $white
+    display: flex
+    align-items: center
+    justify-content: center
+
+    .wrapper
+        display: flex
+        align-items: center
+        justify-content: center
+
+        article
+            transition: 350ms
+
+            h2
+                text-align: center
+
+            p
+                font-style: italic
+                font-size: 1.3rem
+                color: $muted
+
+
+            
+            &.fadein
+                .skill-list
+                    .skill
+                        .skill-bar
+                            .skill-progress
+                                width: 0%
+
+                &.fade
+                    .skill-list
+                        .skill
+                            .skill-bar
+                                .skill-progress
+                                    &.html
+                                        width: $html-skill
+
+                                    &.css
+                                        width: $css-skill
+                                    
+                                    &.js
+                                        width: $js-skill
+                                    
+                                    &.jade
+                                        width: $jade-skill
+
+                                    &.sass
+                                        width: $sass-skill
+
+                                    &.ror
+                                        width: $ror-skill
+
+                                    &.jkl
+                                        width: $jkl-skill

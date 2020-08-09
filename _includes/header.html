@@ -1,0 +1,16 @@
+<header>
+    <div class="wrapper">
+        <a href="#" class="logo">{{ site.title }}</a>
+        <div class="navcontrol">
+            <span class="navicon fa fa-bars" id="navicon"></span>
+            <span class="closeicon fa fa-close" id="closeicon"></span>
+        </div>
+        <nav>
+            <ul>
+                {% for item in site.data.settings.menu %}
+                    <li><a href="{{item.url}}">{{item.title}}</a></li>
+                {% endfor %}
+            </ul>
+        </nav>
+    </div>
+</header>

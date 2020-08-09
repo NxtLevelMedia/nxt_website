@@ -1,0 +1,26 @@
+.mobile-nav-overlay
+    position: fixed
+    z-index: 3
+    width: 100%
+    height: 100%
+    left: -100%
+    top: 0
+    opacity: 0
+    background: transparentize($second, 0.2)
+    color: $white
+    transition: 500ms
+
+    &.open
+        opacity: 1
+        left: 0
+
+    .closeicon
+        font-size: 3.5rem
+        cursor: pointer
+        transition: 350ms
+        position: absolute
+        top: 2rem
+        right: 2rem
+
+        &:hover
+            color: $prime

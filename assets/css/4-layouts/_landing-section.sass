@@ -1,0 +1,33 @@
+.landing-section 
+    background:
+        image: url('../img/landing_bg.jpg')
+        position: center 0px
+        size: cover
+        repeat: no-repeat
+    color: $white
+    display: flex
+    align-items: center
+    overflow: hidden
+
+    .wrapper
+        display: flex
+        align-items: center
+        
+        .welcome-text
+            text-align: center
+
+        .welcome-cta
+            .btn
+                &.secondary
+                    border-color: transparentize($white, 0.5)
+                    color: transparentize($white, 0.5)
+
+                    &:hover
+                        color: $prime
+                        border-color: $prime
+
+    @media screen and (min-width: 768px)
+        .wrapper
+            .welcome-text
+                max-width: 75rem
+                margin: 0 auto

@@ -1,0 +1,92 @@
+.viewall_cta
+    text-align: center
+
+article
+    transition: 500ms
+    
+    &.fadein
+        opacity: 0
+
+        &.fade
+            opacity: 1
+
+    &.swingin
+        -webkit-transform: rotateX(-100deg)
+        transform: rotateX(-100deg)
+        -webkit-transform-origin: top
+        transform-origin: top
+        opacity: 0
+
+        &.swing
+            -webkit-transform: rotateX(0deg)
+            transform: rotateX(0deg)
+            -webkit-transform-origin: top
+            transform-origin: top
+            opacity: 1
+
+    &.slidein
+        -webkit-transform: translateZ(-1400px)
+        transform: translateZ(-1400px)
+        opacity: 0
+
+        &.slide
+            -webkit-transform: translateZ(0)
+            transform: translateZ(0)
+            opacity: 1
+
+*
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+
+html, body
+    width: 100%
+    height: 100%
+
+html
+    font-size: 10px
+
+body
+    opacity: 0
+    font:
+        size: 1.6rem
+        weight: 400
+        family: 'Roboto', sans-serif
+    color: $second
+    background: $light
+
+img
+    max-width: 100%
+    height: auto
+    display: inline-block
+
+a
+    text-decoration: none
+    color: $muted
+    transition: 350ms
+
+    &:hover
+        color: $prime
+
+h1, h2, h3
+    font:
+        family: 'Anton', sans-serif
+        weight: 400
+    margin: 0 0 3rem 0
+    line-height: 1
+
+h2
+    color: $prime
+    font-size: 3rem
+
+    @media screen and (min-width: 768px)
+        font-size: 4rem
+
+    @media screen and (min-width: 1024px)
+        font-size: 5rem
+
+p
+    margin: 2rem 0
+    word-spacing: 0.3rem
+    line-height: 1.7
+    

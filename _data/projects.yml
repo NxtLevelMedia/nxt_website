@@ -1,0 +1,16 @@
+projects:
+  - title: Projekt XYZ
+    image: 'http://placehold.it/800x600'
+    url: 'http://google.com'
+
+  - title: Projekt YXZ
+    image: 'http://placehold.it/800x600'
+    url: 'http://google.com'
+
+  - title: Projekt ZYX
+    image: 'http://placehold.it/800x600'
+    url: 'http://google.com'
+
+  - title: Projekt XZY
+    image: 'http://placehold.it/800x600'
+    url: 'http://google.com'

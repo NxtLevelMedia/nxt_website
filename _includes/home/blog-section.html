@@ -1,0 +1,35 @@
+<section class="blog-section">
+    <div class="wrapper">
+        <article class="swingin">
+            
+            {% assign counter = 0 %}
+            {% for item in site.posts %}
+                {% assign counter = counter | plus: 1 %}
+            {% endfor %}
+            
+            <h2>Meine letzten Blogeinträge</h2>
+            <ul class="post-list">
+                {% for item in site.posts limit: 6 %}
+                    <li class="post">
+                        <div class="post-image" style="background-image: url('{% if item.image %}{{item.image}}{% else %}{{ site.data.settings.noImage }}{% endif %}')">
+                            
+                        </div>
+
+                        <div class="post-content">
+                            <article>
+                                <h3 class="post-title"><a href="{{ item.url }}">{{ item.title }}</a></h3>
+                                <p class="post-excerpt">{{ item.excerpt }}</p>
+                                <span class="post-meta">Geschrieben am {{ item.date | date: "%d.%m.%Y um %H:%M" }}</span>
+                            </article>
+                        </div>
+                    </li>
+                {% endfor %}
+            </ul>
+
+            {% if counter > 6 %}
+                <p class="viewall_cta"><a href="/blog" class="btn primary">Alle Beiträge anzeigen</a></p>
+            {% endif %}
+
+        </article>
+    </div>
+</section>

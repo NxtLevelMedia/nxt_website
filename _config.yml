@@ -1,0 +1,14 @@
+title: NxtLevelMedia
+email: contact@nxtlevelmedia.de
+description: >-
+  Dies ist die offizielle Webseite / Portfolio von NxtLevelMedia alias Daniel
+  Cunningham.
+baseurl: ''
+url: ''
+twitter_username: na
+github_username: na
+plugins:
+  - jekyll-feed
+sass:
+  sass_dir: /assets/css
+  style: compressed
