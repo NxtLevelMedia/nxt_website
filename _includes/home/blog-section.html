@@ -11,7 +11,7 @@
             <ul class="post-list">
                 {% for item in site.posts limit: 6 %}
                     <li class="post">
-                        <div class="post-image" style="background-image: url('{% if item.image %}{{item.image}}{% else %}{{ site.data.settings.noImage }}{% endif %}')">
+                        <div class="post-image" style="background-image: url('{{ site.baseurl }}{% if item.image %}{{item.image}}{% else %}{{ site.data.settings.noImage }}{% endif %}')">
                             
                         </div>
 
@@ -27,7 +27,7 @@
             </ul>
 
             {% if counter > 6 %}
-                <p class="viewall_cta"><a href="/blog" class="btn primary">Alle Beiträge anzeigen</a></p>
+                <p class="viewall_cta"><a href="{{ site.baseurl }}/blog" class="btn primary">Alle Beiträge anzeigen</a></p>
             {% endif %}
 
         </article>
